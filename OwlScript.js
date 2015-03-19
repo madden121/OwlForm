@@ -35,7 +35,8 @@
 			$.ajax({
 				url: action,
 				type: method,
-				data: dataEncoded
+				data: dataEncoded,
+				async : false
 			});
 		}	
 		
